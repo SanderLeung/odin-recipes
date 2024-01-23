@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul.recipes {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    padding-inline-start: 0px;
+}
+
+a {
+    font-size: 18px;
+    /* this removes the line under the links */
+    text-decoration: none;
+}
